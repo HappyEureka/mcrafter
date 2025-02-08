@@ -22,7 +22,6 @@ class Env_Single(GymnasiumEnv):
         """
         super().__init__()
         self.parallel_env = Env(n_players=1, render_mode='human')
-        #self.agent_id = agent_id
         self.action_space = self.parallel_env._action_space
         self.observation_space = self.parallel_env._observation_space
         self.metadata = self.parallel_env.metadata
