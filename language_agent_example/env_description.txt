@@ -1,0 +1,24 @@
+### Enviornment Description
+[# I. Prerequisites and Crafting Hierachy]
+- Collect Cow: facing a cow
+- Collect Drink: facing water
+- Collect Wood: facing tree
+- Collect Stone: 1 wood pickaxe
+- Collect Coal: 1 wood pickaxe
+- Collect Iron: 1 stone pickaxe
+- collect Diamond: 1 iron pickaxe
+- Place Table: consumes 2 pieces of Wood; grass
+- Place Furnace: consumes 4 stone
+- Make Wood Pickaxe: table; consumes 1 wood
+- Make Stone Pickaxe: table; consumes 1 stone; consumes 1 wood 
+- Make Iron Pickaxe: furnace; consumes 1 iron; consumes 1 coal; consumes 1 wood
+
+[# II. Rules About the World]
+- Collecting material: satisfy prerequeistes; navigate to the material; use the "do" action.
+- Health stats: The higher the number, the better.
+    - if low on hunger, Navigate to a cow and collect the cow; if low on drink, navigate to water and collect water; if low on energy, sleep.
+
+- Navigator: 
+  - Use to find a target.
+  - It fails if the target doesn’t exist.
+  - It always navigates to the nearest material.

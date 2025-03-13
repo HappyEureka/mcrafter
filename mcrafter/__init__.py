@@ -1,5 +1,4 @@
 from .env import Env, Env_Single
-from .recorder import Recorder
 import gymnasium as gym
 
 gym.register(
