@@ -143,7 +143,6 @@ class Env(ParallelEnv):
             self._players[i] = objects.Player(self._world, (x + i - self.n_players // 2, y))
             self._last_healths[i] = self._players[i].health
             self._last_inventory[i] = self._players[i].inventory.copy()
-            print(self._players[i], x + i - self.n_players // 2, y)
             self._world.add(self._players[i])
 
         self._unlocked = set()
