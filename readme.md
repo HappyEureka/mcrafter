@@ -5,7 +5,7 @@ Visit the project site: [https://happyeureka.github.io/damcs](https://happyeurek
 
 ## ⚠️ Legacy Notice
 This is the legacy repository for the project.
-- The updated and actively maintained repository is now available [https://github.com/13RENDA/Mcrafter_LLM_Agent.git](https://github.com/13RENDA/Mcrafter_LLM_Agent.git).
+- The updated repository is now available: [https://github.com/13RENDA/Mcrafter_LLM_Agent.git](https://github.com/13RENDA/Mcrafter_LLM_Agent.git).
 
 ## Getting Started
 
